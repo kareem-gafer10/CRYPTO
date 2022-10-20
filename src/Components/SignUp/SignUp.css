@@ -1,0 +1,44 @@
+.signup .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+.signup .left,
+.right {
+  margin: 0 3.5rem;
+}
+.signup .left {
+  text-align: center;
+}
+.signup img {
+  width: 300px;
+}
+.signup img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+.signup .right p {
+  margin: 2rem 0;
+}
+.hero .input-container {
+  padding: 1rem 0;
+}
+@media screen and (max-width: 940px) {
+  .signup .container {
+    flex-direction: column;
+  }
+  .signup .left,
+.right {
+  margin: unset;
+}
+  
+
+
+
+
+
+
+
+
+}

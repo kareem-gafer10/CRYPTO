@@ -1,0 +1,34 @@
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .left,
+.right {
+  padding: 5rem 1rem;
+}
+.hero .input-container {
+  padding: 1rem 0;
+}
+.hero .img-container {
+  width: 100%;
+  display: flex;
+}
+
+.hero .img-container img {
+  max-width: 80%;
+  margin: auto;
+}
+@media screen and (max-width: 1037px) {
+  .hero .container {
+    flex-direction: column;
+  }
+  .hero .left,
+  .right {
+    padding: 3rem 2rem;
+  }
+  .hero .img-container img {
+    max-width: 100% !important;
+    margin: auto;
+  }
+}
